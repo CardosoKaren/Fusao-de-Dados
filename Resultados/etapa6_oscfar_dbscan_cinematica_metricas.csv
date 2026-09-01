@@ -1,0 +1,2 @@
+proposta,VP,FP,FN,precisao,recall,F1,varreduras,plots,alvos,plots_por_alvo,eps,k_vel
+etapa6_oscfar_dbscan_cinematica,18239,40026,7625,0.3130352698875826,0.7051886792452831,0.43359602515185014,2088,58265,25864,2.25,80.0,5.0

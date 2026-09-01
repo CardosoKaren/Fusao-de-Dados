@@ -1,0 +1,45 @@
+cinematica estimada para 159728 plots (4s); |v| mediana 0.04 m/s, p90 1.64 m/s
+ajuste do DBSCAN cinematico (particao de treino, 08 UTC):
+  k=    5 eps=   15 m  F1=0.3048 recall=0.7734 precisao=0.1898 plots/alvo=4.07
+  k=    5 eps=   25 m  F1=0.3275 recall=0.7685 precisao=0.2081 plots/alvo=3.69
+  k=    5 eps=   35 m  F1=0.3564 recall=0.7557 precisao=0.2332 plots/alvo=3.24
+  k=    5 eps=   45 m  F1=0.3754 recall=0.7338 precisao=0.2522 plots/alvo=2.91
+  k=    5 eps=   60 m  F1=0.3961 recall=0.7004 precisao=0.2762 plots/alvo=2.54
+  k=    5 eps=   80 m  F1=0.4079 recall=0.6438 precisao=0.2985 plots/alvo=2.16
+  k=    5 eps=  100 m  F1=0.4025 recall=0.5461 precisao=0.3186 plots/alvo=1.71
+  k=    5 eps=  130 m  F1=0.3959 recall=0.4226 precisao=0.3723 plots/alvo=1.14
+  k=   15 eps=   15 m  F1=0.3042 recall=0.7734 precisao=0.1893 plots/alvo=4.09
+  k=   15 eps=   25 m  F1=0.3239 recall=0.7690 precisao=0.2052 plots/alvo=3.75
+  k=   15 eps=   35 m  F1=0.3502 recall=0.7574 precisao=0.2278 plots/alvo=3.33
+  k=   15 eps=   45 m  F1=0.3704 recall=0.7386 precisao=0.2472 plots/alvo=2.99
+  k=   15 eps=   60 m  F1=0.3928 recall=0.7036 precisao=0.2725 plots/alvo=2.58
+  k=   15 eps=   80 m  F1=0.4072 recall=0.6485 precisao=0.2968 plots/alvo=2.19
+  k=   15 eps=  100 m  F1=0.4022 recall=0.5521 precisao=0.3164 plots/alvo=1.75
+  k=   15 eps=  130 m  F1=0.3990 recall=0.4309 precisao=0.3714 plots/alvo=1.16
+  k=   40 eps=   15 m  F1=0.3035 recall=0.7734 precisao=0.1888 plots/alvo=4.1
+  k=   40 eps=   25 m  F1=0.3201 recall=0.7695 precisao=0.2021 plots/alvo=3.81
+  k=   40 eps=   35 m  F1=0.3418 recall=0.7591 precisao=0.2206 plots/alvo=3.44
+  k=   40 eps=   45 m  F1=0.3610 recall=0.7454 precisao=0.2382 plots/alvo=3.13
+  k=   40 eps=   60 m  F1=0.3847 recall=0.7170 precisao=0.2629 plots/alvo=2.73
+  k=   40 eps=   80 m  F1=0.4034 recall=0.6686 precisao=0.2888 plots/alvo=2.32
+  k=   40 eps=  100 m  F1=0.4023 recall=0.5735 precisao=0.3098 plots/alvo=1.85
+  k=   40 eps=  130 m  F1=0.4018 recall=0.4552 precisao=0.3596 plots/alvo=1.27
+
+escolhidos: eps=80 m, k=5
+clusterizacao completa: 159728 -> 83453 plots
+
+=== etapa6_oscfar_dbscan_cinematica ===
+  VP                 18239
+  FP                 40026
+  FN                 7625
+  precisao           0.3130
+  recall             0.7052
+  F1                 0.4336
+  varreduras         2088
+  plots              58265
+  alvos              25864
+  plots_por_alvo     2.2500
+  eps                80.0000
+  k_vel              5.0000
+  (08 UTC janela de validacao: F1=0.4079 recall=0.6438 prec=0.2985)
+  (teste, apenas alvos confirmados: F1=0.4386 recall=0.7492)

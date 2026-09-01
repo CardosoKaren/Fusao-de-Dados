@@ -1,0 +1,2 @@
+proposta,VP,FP,FN,precisao,recall,F1,varreduras,plots,alvos,plots_por_alvo,eps
+etapa5_oscfar_dbscan,18211,39870,7653,0.3135448769821456,0.704106093411692,0.43387932574900234,2088,58081,25864,2.25,80.0

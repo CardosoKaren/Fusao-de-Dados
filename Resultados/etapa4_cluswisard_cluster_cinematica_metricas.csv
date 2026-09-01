@@ -1,0 +1,2 @@
+proposta,VP,FP,FN,precisao,recall,F1,varreduras,plots,alvos,plots_por_alvo,min_score,bits_velocidade
+etapa4_cluswisard_cluster_cinematica,11008,9272,14856,0.5428007889546351,0.4256108877203835,0.47711511789181693,2088,20280,25864,0.78,0.94,144

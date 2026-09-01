@@ -1,0 +1,28 @@
+entrada: 159728 plots da Etapa 2
+ajuste do DBSCAN (particao de treino, 08 UTC):
+  eps=   15 m  F1=0.3056 recall=0.7732 precisao=0.1905 plots/alvo=4.06
+  eps=   25 m  F1=0.3290 recall=0.7681 precisao=0.2094 plots/alvo=3.67
+  eps=   35 m  F1=0.3578 recall=0.7551 precisao=0.2344 plots/alvo=3.22
+  eps=   45 m  F1=0.3762 recall=0.7328 precisao=0.2531 plots/alvo=2.9
+  eps=   60 m  F1=0.3965 recall=0.6998 precisao=0.2766 plots/alvo=2.53
+  eps=   80 m  F1=0.4076 recall=0.6426 precisao=0.2985 plots/alvo=2.15
+  eps=  100 m  F1=0.4029 recall=0.5456 precisao=0.3194 plots/alvo=1.71
+  eps=  130 m  F1=0.3954 recall=0.4218 precisao=0.3722 plots/alvo=1.13
+
+escolhido: eps=80 m
+clusterizacao completa: 159728 -> 83220 plots (55s)
+
+=== etapa5_oscfar_dbscan ===
+  VP                 18211
+  FP                 39870
+  FN                 7653
+  precisao           0.3135
+  recall             0.7041
+  F1                 0.4339
+  varreduras         2088
+  plots              58081
+  alvos              25864
+  plots_por_alvo     2.2500
+  eps                80.0000
+  (08 UTC janela de validacao: F1=0.4076 recall=0.6426 prec=0.2985)
+  (teste, apenas alvos confirmados: F1=0.4389 recall=0.7480)
