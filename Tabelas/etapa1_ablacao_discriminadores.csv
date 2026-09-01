@@ -1,0 +1,4 @@
+modelo,AUC_celulas_retidas,AUC_janela_validacao,discriminadores,tamanhos
+ClusWiSARD (4 discriminadores/classe),0.9502,0.7767,"{1: 4, 0: 4}","{1: [45635, 3177, 3142, 3267], 0: [81376, 2787, 3268, 2644]}"
+WiSARD (1 discriminador/classe),0.9531,0.7787,"{1: 1, 0: 1}","{1: [55221], 0: [90075]}"
+ClusWiSARD sem correcao de saturacao,0.9531,0.7787,"{1: 4, 0: 4}","{1: [55216, 2, 2, 1], 0: [90070, 3, 1, 1]}"

@@ -1,0 +1,19 @@
+\begin{table}[!ht]
+\centering
+\small
+\caption{Analise de sensibilidade: metricas restritas aos alvos AIS com eco radar confirmado.}
+\label{tab:comparacao_conf}
+\begin{tabular}{lrrrrrrrrr}
+\hline
+proposta & VP & FP & FN & precisao & recall & F1 & plots & alvos & plots\_por\_alvo \\
+\hline
+B0  Video bruto (sem filtro) & 24110 & 122577 & 0 & 0.164 & 1.000 & 0.282 & 146687 & 24110 & 6.080 \\
+P1  Filtro ClusWiSARD & 11883 & 21045 & 12227 & 0.361 & 0.493 & 0.417 & 32928 & 24110 & 1.370 \\
+P2  Filtro OS-CFAR & 20552 & 90491 & 3558 & 0.185 & 0.852 & 0.304 & 111043 & 24110 & 4.610 \\
+P3  ClusWiSARD + clust. ClusWiSARD & 9752 & 6082 & 14358 & 0.616 & 0.405 & 0.488 & 15834 & 24110 & 0.660 \\
+P4  ClusWiSARD + clust. ClusWiSARD + cinematica & 10656 & 9624 & 13454 & 0.525 & 0.442 & 0.480 & 20280 & 24110 & 0.840 \\
+P5  OS-CFAR + DBSCAN & 18035 & 40044 & 6075 & 0.310 & 0.748 & 0.439 & 58079 & 24110 & 2.410 \\
+P6  OS-CFAR + DBSCAN + cinematica & 18063 & 40200 & 6047 & 0.310 & 0.749 & 0.439 & 58263 & 24110 & 2.420 \\
+\hline
+\end{tabular}
+\end{table}

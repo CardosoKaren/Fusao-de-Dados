@@ -1,0 +1,5 @@
+atributo,AUC,sentido
+amplitude,0.5398,direto
+densidade local (escala fina),0.5089,direto
+densidade local (escala grossa),0.5332,inverso
+"razao CFAR a/(Z(0,98)+1)",0.5457,direto
